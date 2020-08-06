@@ -1,0 +1,54 @@
+
+Bee Keeping
+
+A console application needs to created to manage some beehives.  The application needs to be able to:
+
+    Create beehives (with bees)
+    From each beehive run the CollectHoney method for a specified number of days
+    Report on the number of bees in each beehive
+
+To start off create 2 beehives
+
+        4 bees (John, Paul, George, Ringo) -> Sizes (3.2, 2.7, 1.1,  2.0)
+        3 bees (Kurt, Dave, Krist) -> Sizes (2.3, 7.4, 1.5)
+
+Create a class diagram before starting.
+
+Rough parameters below.
+
+Beehive
+
+    Bees
+    Max Amount of Bees
+
+    Collect Honey (days: int)
+        Amount: float = days * bee Size * 0.2
+
+Bee
+
+    String: Name
+    Float: Size
+
+Submission
+
+GitHub link
+
+Paste GitHub link next to your student number in the peer assessment link below
+
+After due date go to the peer assessment link below and assess the relevant person's work.  This must be accessed using your Swinburne account
+
+
+
+
+
+
+
+Futur cree une ruche avec une reine direct dans la ruche  
+    -- posibilly de choisir son nom de la reine (pas de taille la reine ne travaille pas )
+    -- cree une nouvelle abeille avec le temp de choisie pour le collect de miel 
+        --  after la Collect de miel l utilisateur  doit choiser les noms des newborn 
+        --  les newborn comment a 0.1 mais continue de grandire avec le temp 0.1 tout le jours
+        --  les newborn peut atteindre un limite max ALEATOIR entre <5 ,10>
+        --    
+
+ 
